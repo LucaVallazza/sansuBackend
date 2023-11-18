@@ -1,4 +1,4 @@
-import { UserType } from './../../../../../app2/src/assets/types.d';
+import { UserType } from '@/lib/types';
 import prisma from "@/app/db";
 import { NextResponse } from "next/server"
 
