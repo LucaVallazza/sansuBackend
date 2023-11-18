@@ -1,7 +1,7 @@
-import { UserInterface, CreateUserRequest } from "./../../../../lib/types.d";
+import { UserInterface, CreateUserRequest } from "@/lib/types";
 import { NextResponse } from "next/server";
 import prisma from "@/app/db";
-import { UserType } from "../../../../../../app2/src/assets/types";
+import { UserType } from "@/lib/types";
 
 export async function PUT(req: Request) {
   try {

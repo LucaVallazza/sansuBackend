@@ -1,4 +1,4 @@
-import { UserInterface, CreateUserRequest } from "./../../../../lib/types.d";
+import { UserInterface, CreateUserRequest } from "@/lib/types";
 import { NextResponse } from "next/server";
 import prisma from "@/app/db";
 
